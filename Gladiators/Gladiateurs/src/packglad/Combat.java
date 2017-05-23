@@ -12,15 +12,28 @@ public class Combat {
         {
             System.out.println(g.saluer());
             alArme = new ArrayList(g.listerArme());
+            System.out.println("Voici mes armes : ");
             for(Arme a : alArme) 
-            {
-                System.out.println("Voici mes armes : ");
-                System.out.print(a.getNom());
+            {               
+                System.out.print(a.getNom()+ " ");
             }
         }
     }
 
     public static void finCombat() {
+        ArrayList<Ethnie> alEthnie = new ArrayList(GestionEthnies.listerEthnies());
+        int score = 0;
+        String EthnieGagnante = "";
+        for(Ethnie e : alEthnie) 
+        {
+            if(this.getScore(e) > score )
+            {
+                score = this.getScore(e);
+                EthnieGagnante = e.getNom();
+            }
+            
+        }
+        
     }
 
     public Integer getScore(Ethnie e) {

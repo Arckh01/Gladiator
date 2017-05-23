@@ -29,8 +29,6 @@ public class GestionGladiateur {
     public static Retiaire nouveauRetiaire(String Nom, Integer Agilite) {
     }
 
-    public static Collection listerGladiateurs(Ethnie e) {
-    }
 
     public static Collection listerMirmillons() {
     }
@@ -45,5 +43,8 @@ public class GestionGladiateur {
     }
 
     public static void getGladiateur(Integer idg) {
+    }
+
+    public static Collection listerGladiateurs(Ethnie e) {
     }
 }
