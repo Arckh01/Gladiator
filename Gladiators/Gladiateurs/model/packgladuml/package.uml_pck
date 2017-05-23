@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.2.0'/>
+ <uml:Package xmi:type='uml:Package' xmi:uuid='urn:uuid:e1d8c2de-f829-4015-9ada-f461db68ba7a'
+   name='uml'
+   visibility='public'/>
+ <uml:Package xmi:type='uml:Package' xmi:uuid='urn:uuid:15148e79-f3ed-4aee-9cbf-de7ee37a4424'
+   name='packglad'
+   visibility='public'/>
+ <uml:Package xmi:type='uml:Package' xmi:uuid='urn:uuid:e0ffe229-008d-4a09-99b5-d41f5e235191'
+   name='packgladuml'
+   visibility='public'/>
+</xmi:XMI>
