@@ -26,7 +26,7 @@ public class Mirmillon extends Gladiateur {
     public static void c_autoriserArme(Arme Arme) {
     }
 
-    public void Mirmillion(String nom, Integer poids, Integer idg, Integer force) {
+    public void Mirmillion(String nom, Integer poids, Integer idg, Integer force, Ethnie ethnie) {
     }
 
     public Collection getAssaillant() {

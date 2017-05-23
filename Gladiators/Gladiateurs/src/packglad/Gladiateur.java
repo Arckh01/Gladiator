@@ -34,7 +34,12 @@ public abstract class Gladiateur {
      */
     private Collection c_listeArmes;
 
-    public abstract void subirCoup(Gladiateur assaillant, Integer puissance);
+    public Gladiateur(Ethnie ethnie) {
+    }
+
+    public Gladiateur(String nom, Integer force, Integer idg, Ethnie ethnie) {
+    }
+
 
     public Collection listerArme() {
     }
