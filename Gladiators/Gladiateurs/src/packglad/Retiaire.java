@@ -23,7 +23,7 @@ public class Retiaire extends Gladiateur {
      */
     private static Collection c_equipable;
 
-    public Retiaire(String nom, Integer Agilite, Integer idg) {
+    public Retiaire(String nom, Integer Agilite, Integer idg, Ethnie ethnie) {
     }
 
     public String getTypeGladiateur() {
