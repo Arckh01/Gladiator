@@ -67,4 +67,7 @@ public abstract class Gladiateur {
 
     public void frapper(Gladiateur victime, Gladiateur instrument) {
     }
+    public Integer getVie() {
+        return vie;
+    }
 }

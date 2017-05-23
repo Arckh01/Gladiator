@@ -30,10 +30,5 @@ public class Ethnie {
         return nom;
     }
 
-    public Integer getScore() {
-        ArrayList<Gladiateur> al = 
-            
-            return 000;
-    }
-    
+
 }
