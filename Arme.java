@@ -23,8 +23,10 @@ public class Arme {
 
     public Arme(String nom, Integer attaque, Integer defense, Integer ida) {
         this.nom = nom;
-        this.attaque =attaque;
-        this.defense = defense;
+        if(attaque > 0)
+            this.attaque =attaque;
+        if(defense >0)
+            this.defense = defense;
         this.ida = ida;
     }
 
